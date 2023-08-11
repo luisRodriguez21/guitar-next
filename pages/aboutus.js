@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/Image'
+import Image from 'next/image'
 import Layout from "../components/Layout"
 import styles from "../styles/aboutus.module.css"
 
@@ -7,8 +7,6 @@ export default function Aboutus() {
     return (
         <>
             <Layout title={"Nosotros"}>
-
-
                 <main className="container">
                     <h1 className="heading">Nosotros</h1>   
                     
@@ -26,11 +24,7 @@ export default function Aboutus() {
                         </div>
 
                     </div>
-
-
                 </main>    
-
-
             </Layout>
         </>
     )

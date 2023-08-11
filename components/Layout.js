@@ -3,7 +3,7 @@ import Footer from "./Footer"
 import Header from "./Header"
 
 
-export default function Layout({ children, title = '', description = ''}) {
+export default function Layout({ children, title, description}) {
     return (
         <>  
             <Head>
@@ -12,12 +12,8 @@ export default function Layout({ children, title = '', description = ''}) {
             </Head>
 
             <Header />
-
-            
             { children }
-
             <Footer />
-
         </>
     )
 }
